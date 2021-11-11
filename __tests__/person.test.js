@@ -9,4 +9,12 @@ describe('Person', ()=> {
     expect(person1.marsAge).toBeDefined();
     expect(person1.jupiterAge).toBeDefined();
   });
+  test('should assign proportionally correct values to each planet years variable',()=>{
+    let person1 = new Person(25);
+    expect(person1.earthAge).toEqual(25);
+    expect(person1.mercuryAge).toEqual(6);
+    expect(person1.venusAge).toEqual(15.5);
+    expect(person1.marsAge).toEqual(47);
+    expect(person1.jupiterAge).toEqual(296.5);
+  });
 });
