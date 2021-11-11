@@ -5,6 +5,7 @@ export class Person{
     this.venusAge = this.convertAge(earthAge,"venus");
     this.marsAge = this.convertAge(earthAge,"mars");
     this.jupiterAge = this.convertAge(earthAge,"jupiter");
+    this.lifeExpectancy = lifeExpectancy;
     this.toExpectedDeath = Math.abs(earthAge-lifeExpectancy);
     this.toExpectedDeathMercury = this.convertAge(this.toExpectedDeath,"mercury");
     this.toExpectedDeathVenus = this.convertAge(this.toExpectedDeath,"venus");
