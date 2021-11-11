@@ -17,5 +17,5 @@ Person.prototype.convertAge = function(age,planet){
     "mars":1.88,
     "jupiter":11.86
   };
-  return age*planetConversionFactor[planet];
+  return (Math.trunc((age/planetConversionFactor[planet])*10)/10);
 };
