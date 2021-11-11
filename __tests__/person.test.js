@@ -17,4 +17,13 @@ describe('Person', ()=> {
     expect(person1.marsAge).toEqual(47);
     expect(person1.jupiterAge).toEqual(296.5);
   });
+  test('should calculate the absolute value of the users life expectancy-age',()=>{
+    let person1 = new Person(25,80);
+    expect(person1.earthAge).toEqual(25);
+    expect(person1.mercuryAge).toEqual(6);
+    expect(person1.venusAge).toEqual(15.5);
+    expect(person1.marsAge).toEqual(47);
+    expect(person1.jupiterAge).toEqual(296.5);
+    expect(person1.toExpectedDeath).toEqual(55);
+  });
 });
