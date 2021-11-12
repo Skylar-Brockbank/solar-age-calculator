@@ -32,7 +32,7 @@ _This program will take your age and your life expectancy and construct a person
 
 ## Known Bugs
 
-* _No Known Bugs_
+* _stellar and solar canvases don't resize graphics when screen size changes_
 
 ## License
 
