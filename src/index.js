@@ -1,6 +1,6 @@
 import $ from 'jQuery';
 import {Person} from './../src/js/person.js';
-import {Screen, Planet, SolarSystem} from './../src/js/test.js';
+import {Screen, Planet, SolarSystem} from './js/solarsystem.js';
 import './css/styles.css';
 
 function setOutput(person){
