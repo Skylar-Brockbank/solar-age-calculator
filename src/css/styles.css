@@ -1,0 +1,21 @@
+canvas {
+  position: absolute;
+}
+body{
+  background-color: rgb(14, 0, 29);
+  margin: 0;
+  padding: 0;
+}
+#form-stuff {
+  background-color: rgba(177, 177, 177, 0.863);
+  margin:3vh;
+  padding:3vh;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  position: absolute;
+  border-radius: 1vh;
+  height: 90vh;
+  width: 30vw;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.685);
+}
