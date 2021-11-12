@@ -12,7 +12,7 @@ function setOutput(person){
     }
   }else{
     for(let i = 0; i<deathArray.length;i++){
-      morbidMessage = morbidMessage+" Your expected expiration is in "+deathArray[i][0]+" years on "+deathArray[i][1];
+      morbidMessage = morbidMessage+" Your expected expiration is in "+deathArray[i][0]+" years on "+deathArray[i][1] +".";
     }
   }
   let output = " You may be "+person.earthAge+" on Earth, but you're "+person.mercuryAge+" on Mercury, "+person.venusAge+" on Venus, "+person.marsAge+" on Mars, and "+person.jupiterAge+" on Jupiter.";
