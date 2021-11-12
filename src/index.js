@@ -61,6 +61,6 @@ animate();
 
 $('form').submit(function(event){
   event.preventDefault();
-  let person1 = new Person($('#earthAge').val(),$('#earthDeath').val());
+  let person1 = new Person(parseInt($('#earthAge').val()),parseInt($('#earthDeath').val()));
   $('#returnValues').text(setOutput(person1));
 });
